@@ -1,0 +1,57 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+.contact-container {
+    width: 20%;
+    margin: 100px auto 200px auto;
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    text-align: center;
+}
+
+.text-brown
+{
+    color:#60626b;
+}
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin-top: 10px;
+}
+
+input, textarea {
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #eedfd7;
+    color: rgb(16, 15, 15);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 20%;
+    margin: 20px auto; /* Auto margins will center the block element */
+}
+
+button:hover {
+    background-color:  	#dfb591;
+    
+}
+
